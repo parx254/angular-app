@@ -1,0 +1,1 @@
+$(document).ready(function () {    $("input[name='vechile']").change(function () {       var maxAllowed = 2;       var cnt = $("input[name='tech']:checked").length;       if (cnt > maxAllowed)        {          $(this).prop("checked", "");          alert('Select maximum ' + maxAllowed + ' Products Standouts!');      }   }); });
